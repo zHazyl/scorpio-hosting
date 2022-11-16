@@ -9,4 +9,4 @@ RUN npm run prod
 FROM nginx:1.19
 
 COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
-COPY --from=build /app/dist/chat-me-angular/ /usr/share/nginx/html
+COPY --from=build /app/dist/scorpio-hosting/ /usr/share/nginx/html

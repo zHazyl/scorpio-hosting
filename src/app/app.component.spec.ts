@@ -20,6 +20,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('chat-me-angular app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('scorpio-hosting app is running!');
   });
 });
